@@ -1,0 +1,59 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  display: block;
+  margin: 1rem auto;
+}
+
+#bartender-img {
+  width: 25rem;
+}
+
+input {
+  margin-top: 1rem;
+}
+
+button {
+  margin: 1rem 0;
+}
+
+#ordered {
+  text-align: center;
+}
+
+.cocktail-name {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+#rude-answer {
+  font-size: 2.5rem;
+  color: red;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.hidden {
+  display: none;
+}
